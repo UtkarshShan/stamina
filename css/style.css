@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+*
+{
+margin:0;
+padding:0;
+font-family: 'Comfortaa', cursive;
+} 
+
+.container-fluid
+{
+/* width: 100%; */
+/* background:rgba(17, 17, 17, 0.5); */
+background-image: url("https://source.unsplash.com/1600x900/?gym") ;
+color: #fff;
+}
+/* NAVIGATION */
+.navbar
+{
+  background: #0c0b0b;
+height: 70px;
+padding: 0px 10px;
+margin:auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar span {
+  color: #e33;
+
+}
+.navbar ul
+{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+}
+.navbar ul li
+{
+margin-right: 25px;
+font-size: 14px;
+cursor: pointer;
+font-weight: bold;
+transition: .5s;
+}
+.navbar ul li a
+{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar ul li a:hover
+{
+  color: #e33;
+
+}
+.navbar ul li:hover
+{
+color: #e33;
+}
+.navbar .sidebar-logo{
+  display: none;
+}
+.navbar .menu
+{
+display: none;
+width: 65px;
+height: 45px;
+background: #e33;
+border-radius: 25px;
+border:2px solid #e33;
+font-weight: bold;
+cursor: pointer;
+transition: .5s;
+color: #fff;
+}
+.navbar .menu:hover
+{
+background:#e11;
+}
+/* BANNER SECTION */
+.content
+{
+color: rgb(255, 255, 255);
+ background-image: url("https://source.unsplash.com/1600x900/?gym");
+padding: 10px 10px;
+margin:auto;
+display: flex;
+justify-content: space-evenly;
+}
+.content h3
+{
+font-size: 20px;
+}
+.content h1
+{
+font-size: 70px;
+font-weight: bold;
+}
+.content span
+{
+color: #e33;
+}
+.content button
+{
+width: 140px;
+height: 45px;
+border-radius: 25px;
+background-color: #e33;
+cursor: pointer;
+font-size: 15px;
+border:2px solid #e33;
+transition: .5s;
+color: #fff;
+}
+.content button:hover
+{
+background:#e11;
+}
+
+.content-left{
+  text-align: center;
+  margin: auto;
+  padding: 70px 40px;
+}
+/* ABOUT US SECTION */
+.about
+{
+width: 100%;
+background: #222;
+}
+.about .cont
+{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.cont img
+{
+padding: 21px;
+width: 250px;
+}
+.cont-title
+{
+  text-align: center;
+flex-basis: 100%;
+color: #fff;
+padding-top: 40px;
+font-weight: bold;
+font-size: 24px;
+}
+.cont-img{
+  flex-basis: 37%;
+}
+.cont-desc{
+  flex-basis: 60%;
+}
+.cont .cont-desc h3
+{
+font-weight: bold;
+color: #fff;
+padding-top: 14px;
+font-size: 25px;
+text-align: center;
+}
+.cont .cont-desc p
+{
+color: #999;
+line-height: 25px;
+padding-top: 30px;
+}
+
+/* .cont .desc2 p
+{
+color: #999;
+padding: 10px;
+line-height: 25px;
+} */
+.cont button
+{
+width: 140px;
+height: 45px;
+border-radius: 25px;
+background-color: #e33;
+cursor: pointer;
+font-size: 15px;
+border:2px solid #e33;
+transition: .5s;
+color: #fff;
+margin-left: 100px;
+margin-top: 30px;
+}
+.cont button:hover
+{
+background-color: #e11;
+}
+/* OUR SERVICES SECTION */
+.Services
+{
+width: 100%;
+background: #111;
+/* padding: 10px ; */
+}
+.Services .area
+{
+width: 100%;
+margin:auto; 
+/* padding:25px 0px; */
+}
+.Services .area h1
+{
+  padding-top: 10px;
+color: #fff;
+font-weight: bold;
+font-size: 40px;
+text-align: center;
+}
+.Services .box
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* padding-top: 15px; */
+padding:15px;
+}
+.Services .box div
+{
+width: 270px;
+background:#fff;
+border-radius: 10px;
+text-align: center;
+padding:20px 10px;
+}
+.Services .box div ion-icon
+{
+color: #e33;
+font-size: 50px;
+padding-top: 20px;
+}
+.Services .box div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Services .box div p
+{
+color: #111;
+line-height: 25px;
+padding:30px;
+font-weight: bold;
+font-family: arial;
+}
+/* PLANS SECTION */
+.pricing
+{
+width: 100%;
+background-color: #222;
+}
+.price
+{
+width: 100%;
+margin:auto;
+padding:50px 0px;
+height: 600px;
+}
+.price h1
+{
+text-align: center;
+color: #fff;
+}
+.price p
+{
+color: #fff;
+font-size: 15px;
+padding-top: 20px;
+text-align: center;
+}
+.pricing .price-box
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px;
+}
+.pricing .price-box .p-box
+{
+width: 240px;
+padding:20px;
+background-color: #fff;
+border-radius: 10px;
+text-align: center;
+margin-top: 100px;
+cursor: pointer;
+transition: .5s;
+}
+.pricing .price-box .p-box:hover
+{
+margin-top: 70px;
+}
+.pricing .price-box .p-box h2
+{
+font-size: 30px;
+}
+.pricing .price-box .p-box h3
+{
+font-size: 60px;
+color: #e33;
+padding-top: 20px;
+}
+.pricing .price-box .p-box h5
+{
+font-weight: bold;
+font-size: 15px;
+padding-top: 20px;
+}
+.pricing .price-box .p-box .btn
+{
+width: 140px;
+height: 45px;
+background-color: #e33;
+border-radius: 25px;
+border:2px solid #e33;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+margin-top: 20px;
+transition: .5s;
+}
+.pricing .price-box .p-box .btn:hover
+{
+background-color: #e11;
+}
+/* FOOTER SECTION */
+.footer-fluid
+{
+  position: fixed;
+  bottom: 0px;
+width: 100%;
+background-color: #111;
+}
+.footer
+{
+     
+width: 100%;
+margin-top: auto;
+padding:30px;
+display: flex;
+box-sizing: border-box;
+justify-content: space-evenly;
+align-items: center;
+}
+.footer p
+{
+color: #fff;
+}
+.footer a
+{
+text-decoration: none;
+color: #e33;
+}
+
+.footer ion-icon
+{
+color: #fff;
+font-size: 25px;
+margin-right: 10px;
+cursor: pointer;
+transition: .5s;
+}
+.footer ion-icon:hover
+{
+color: #e33;
+}
+ 
+
